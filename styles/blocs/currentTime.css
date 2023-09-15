@@ -1,0 +1,16 @@
+.currentTime {
+  width: max-content;
+  margin: auto;
+  text-align: center;
+  padding: 1.2rem 2rem;
+  border: 6px solid var(--light-blue);
+  border-radius: 20px;
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.currentTime__title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}

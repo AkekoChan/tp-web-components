@@ -1,0 +1,35 @@
+@import "vendors/reset.css";
+@import "global/font.css";
+@import "blocs/currentTime.css";
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #fff;
+  --light-blue: #9ac8eb;
+  --blue: #5784ba;
+}
+
+html,
+button,
+input::placeholder {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  width: clamp(320px, 80%, 1200px);
+  margin: 0 auto 5.5rem;
+  display: grid;
+  place-items: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
