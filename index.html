@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TP Web components - part 1</title>
+    <title>TP Web components</title>
     <script type="module" defer src="src/main.js"></script>
     <link rel="stylesheet" href="styles/styles.css" />
   </head>
@@ -11,5 +11,21 @@
     <current-time></current-time>
     <current-time format="utc"></current-time>
     <screen-size unit=""></screen-size>
+
+    <template id="custom-details">
+      <details>
+        <summary><slot name="summary"></slot></summary>
+        <div name="content"><slot name="content"></slot></div>
+      </details>
+    </template>
+
+    <custom-details>
+      <span slot="summary">Les 3 technologies des Web Components</span>
+      <ul slot="content">
+        <li>Custom Elements</li>
+        <li>Shadow DOM</li>
+        <li>Eléments &lt;template&gt; et &lt;slots&gt;</li>
+      </ul>
+    </custom-details>
   </body>
 </html>
