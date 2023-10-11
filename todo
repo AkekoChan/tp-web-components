@@ -1,0 +1,8 @@
+(Component) => addTodo;
+(Component) => listTodos;
+(Component) => deleteCompleteTodo;
+
+<todo-list>
+<todo-item>
+<add-todo>
+<delete-complete-todo>

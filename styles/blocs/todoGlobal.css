@@ -1,0 +1,25 @@
+.todo__background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(87, 132, 186);
+  background: linear-gradient(
+    149deg,
+    rgba(87, 132, 186, 1) 0%,
+    rgba(126, 171, 214, 1) 58%,
+    rgba(154, 200, 235, 1) 100%
+  );
+}
+
+.todo__background section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.875rem;
+}
+
+.todo__title {
+  line-height: 1.2;
+  font-weight: bold;
+  font-size: 3rem;
+  color: var(--white);
+}
