@@ -11,17 +11,7 @@
     <main>
       <section>
         <h1 class="todo__title">My Todo List</h1>
-
-        <template id="todo-list">
-          <slot name="add-todo"></slot>
-          <div>
-            <slot name="content"></slot>
-          </div>
-        </template>
-
-        <todo-list>
-          <add-todo slot="add-todo"></add-todo>
-        </todo-list>
+        <todo-list></todo-list>
       </section>
     </main>
   </body>
