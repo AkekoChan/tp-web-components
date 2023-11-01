@@ -94,7 +94,7 @@ class TodoItem extends HTMLElement {
     <li class="todo-item">
         <div class="round">
           <input class="checkbox" type="checkbox" id="checkbox" />
-          <label for="checkbox" tabindex="0"></label>
+          <label for="checkbox" tabindex="0" aria-label="Tâche réalisée"></label>
         </div>
         <span class="text">Tache 1</span>
         <input class="editText" type="text"/>
